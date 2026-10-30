@@ -1,0 +1,174 @@
+{
+  "version": "4.0.0",
+  "distribution": {
+    "public_url": "https://portal.example.com",
+    "tunnel_provider": "cloudflared",
+    "web_server": "nginx",
+    "nginx_web_root": "/var/www/html",
+    "windows_nginx_web_root": null,
+    "entrypoint_html": "index.html",
+    "cron_schedule": "0 * * * *"
+  },
+  "candidate": {
+    "name": "Alex Morgan",
+    "title": "Senior Cloud & Systems Engineer | AI Technical Consultant",
+    "location": "Remote (UTC-5 / EST)",
+    "tax_status": "Independent Contractor / B2B Consultant (W-8BEN / W-9 / Corp-to-Corp)",
+    "portfolio": "https://portfolio.example.com",
+    "dashboard_url": "https://portal.example.com",
+    "linkedin": "https://linkedin.com/in/example-profile",
+    "email": "contact@example.com",
+    "phone": "+1 (555) 019-2834",
+    "languages": {
+      "EN": "Native / Fluent Professional Proficiency",
+      "FR": "Professional Working Proficiency (Technical Documentation & Systems Architecture)",
+      "ES": "Professional Working Proficiency (Cross-Border Collaboration & Infrastructure)"
+    },
+    "verified_metrics": {
+      "years_it_experience": "10+ years senior systems, cloud administration, and infrastructure operations",
+      "msp_scale": "50+ client environments, 2,000+ endpoints managed",
+      "incident_reduction": "30% reduction in recurring incidents through proactive alerting, scripting, and automation",
+      "bcdr_reliability": "99%+ backup verification and disaster recovery compliance via Acronis, Veeam, and Datto",
+      "certifications": [
+        "Microsoft Certified: Azure Administrator Associate",
+        "CompTIA Security+ / Network+",
+        "Linux Professional Institute LPIC"
+      ]
+    },
+    "mssp_vendor_scorecard": {
+      "Huntress (Managed EDR + ITDR + SIEM)": "10/10 — Strong channel ROI, human-verified SOC remediation cards, low false positives, orchestrates native Defender.",
+      "Acronis Cyber Protect Cloud": "9/10 unified (BCDR + RMM + Patching + EDR single agent); 7/10 standalone EDR/ITDR.",
+      "Blackpoint Cyber (CompassOne / SNAP-Defense / LogIC)": "High-tier active SOC network isolation + 365-day SIEM compliance retention.",
+      "SentinelOne + Vigilance MDR / CrowdStrike": "Best for heavy Linux/macOS footprints & kernel rollback, with managed MDR coverage.",
+      "SaaS Alerts": "5/10 — Requires initial workflow tuning to prevent alert fatigue without dedicated SOC.",
+      "Augmentt": "4/10 — Clean UI for posture checks, requires manual log investigation for deep analysis."
+    }
+  },
+  "scoring_rubric": {
+    "weights": {
+      "tech_domain_max": 40,
+      "role_flexibility_max": 20,
+      "geo_language_max": 20,
+      "contract_structure_max": 20
+    },
+    "verdict_thresholds": {
+      "APPLY": 80,
+      "POSSIBLE": 62
+    },
+    "high_value_tech_keywords": {
+      "liongard": 10,
+      "it glue": 10,
+      "autotask": 9,
+      "ninjaone": 9,
+      "kaseya": 8,
+      "backup radar": 9,
+      "acronis": 9,
+      "veeam": 8,
+      "datto": 8,
+      "huntress": 10,
+      "blackpoint": 9,
+      "sentinelone": 8,
+      "itdr": 9,
+      "entra": 9,
+      "entra id": 10,
+      "m365": 9,
+      "microsoft 365": 9,
+      "office 365": 8,
+      "intune": 9,
+      "conditional access": 9,
+      "azure": 8,
+      "az-104": 9,
+      "powershell": 8,
+      "power automate": 8,
+      "graph api": 9,
+      "noc": 9,
+      "csm": 9,
+      "centralized services": 10,
+      "msp": 9,
+      "mssp": 9,
+      "rmm": 9,
+      "psa": 8,
+      "ai trainer": 10,
+      "ai evaluator": 10,
+      "rlhf": 10,
+      "prompt engineer": 9,
+      "context engineer": 10,
+      "rubric": 9,
+      "red team": 9,
+      "systems audit": 9,
+      "technical writer": 8,
+      "documentation": 8,
+      "sop": 8,
+      "linux": 8,
+      "debian": 9,
+      "rhel": 8,
+      "vmware": 8,
+      "hyper-v": 8,
+      "cloudflare": 8,
+      "python": 8,
+      "pandas": 8,
+      "ollama": 9,
+      "langchain": 8,
+      "mcp": 9,
+      "rag": 8,
+      "télétravail": 8,
+      "administrateur systèmes": 9,
+      "ingénieur cloud": 9
+    },
+    "unlearned_gap_penalties": {
+      "terraform": -8,
+      "kubernetes": -8,
+      "aws": -8,
+      "c#": -8,
+      "react": -8,
+      "rust": -8,
+      "golang": -8,
+      "c++": -8,
+      "solidity": -8,
+      "ios": -8,
+      "android": -8,
+      "react native": -8
+    },
+    "role_flexibility_signals": {
+      "async": 5,
+      "asynchronous": 5,
+      "self-paced": 5,
+      "flexible hours": 4,
+      "fractional": 5,
+      "part-time": 4,
+      "20 hours": 5,
+      "4 day week": 5,
+      "documentation": 3,
+      "standardization": 3,
+      "automation": 3,
+      "advisory": 5,
+      "consultation": 4
+    },
+    "geo_language_signals": {
+      "geo_keywords": [
+        "worldwide",
+        "anywhere in the world",
+        "global remote",
+        "work from anywhere",
+        "remote",
+        "international contractor",
+        "americas",
+        "emea",
+        "latam"
+      ],
+      "french_keywords": [
+        "french",
+        "français",
+        "francophone",
+        "télétravail"
+      ],
+      "spanish_keywords": [
+        "spanish",
+        "español",
+        "bilingual",
+        "trilingual",
+        "multilingual"
+      ]
+    }
+  }
+}
