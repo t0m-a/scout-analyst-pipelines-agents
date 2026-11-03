@@ -16,8 +16,6 @@
 [![Languages: EN / FR / ES](https://img.shields.io/badge/Outreach-EN%20%7C%20FR%20%7C%20ES%20%7C%20Advisory-purple?style=flat-square)](proposals_ready.md)
 [![Dashboard: Standalone HTML5](https://img.shields.io/badge/Dashboard-Single--Page%20HTML5%2FCSS3-E34F26?style=flat-square&logo=html5&logoColor=white)](index.html)
 
-**All the demo platforms currently deployed and running under my main domain are not publicly accessible. Please, email me if you would like a live demo. Thank you.**
-
 ---
 
 [**Explore Dashboard (`index.html`)**](index.html) • [**Morning Briefing (`morning_brief.md`)**](morning_brief.md) • [**Ready Proposals (`proposals_ready.md`)**](proposals_ready.md) • [**Platform Registry (`platforms_config.json`)**](platforms_config.json)
@@ -40,6 +38,12 @@
 - [🌐 Web Dashboard & Edge Distribution](#-web-dashboard--edge-distribution)
 - [📂 Repository Structure](#-repository-structure)
 - [📄 License](#-license)
+
+---
+
+<p align="center">
+  <img src="scout-and-analyst.png" alt="Scout & Analyst illustration" width="100%">
+</p>
 
 ---
 
